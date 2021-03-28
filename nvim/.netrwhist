@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/cerberus/.config'
+let g:netrw_dirhist_8='/home/cerberus/.config/alacritty'
+let g:netrw_dirhist_7='/home/cerberus/Documents/code/portfolio'
+let g:netrw_dirhist_6='/home/cerberus/Documents/code'
+let g:netrw_dirhist_5='/home/cerberus/Documents'
+let g:netrw_dirhist_4='/home/cerberus'
+let g:netrw_dirhist_3='/home/cerberus/Documents/code/portfolio/src/components'
+let g:netrw_dirhist_2='/home/cerberus/Documents/code/portfolio/src'
+let g:netrw_dirhist_1='/home/cerberus/Documents/code/portfolio'
