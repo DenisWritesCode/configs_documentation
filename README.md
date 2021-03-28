@@ -19,7 +19,7 @@ the instruction for help is `<C-b>` then `?`.
 release both then hit `?` separately. Kindly take note*.
 - Here are few default key-bindings, yours truly thinks every beginner should
 familiarise themselves with:
-	    > `x` - as.
+		> `x` - as.
 - Next, customise it to your liking, can use the guide below as a starting 
 point:
 ```
