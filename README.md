@@ -57,6 +57,8 @@ familiarise themselves with:
   16. > `<C-b>, l` - Move to previously selected window.
   17. > `<C-b>, q` - Show pane numbers. When the pane shows up, type the assosciated number to goto that pane.
   18. > `<C-b>, f *windowName*` - Search for *windowName*. 
+  19. > `<C-b>, x` - Close current pane. 
+  20. > `<C-b>, o` - Go to next pane. 
 
 ### Customising Tmux
 - The beauty of Linux comes in being able to customise almost everything. Not being one to let such a chance pass by, here we go.
@@ -89,3 +91,6 @@ familiarise themselves with:
   set-option -g allow-rename off
   ```
 ## Neovim
+- Start with setting basic settings in *~/.config/nvim/init.vim*.
+- Install your plugin manager of choice `vim-plug`.
+- Start installing plugins.
