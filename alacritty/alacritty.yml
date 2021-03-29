@@ -4,6 +4,10 @@ import:
   - /home/cerberus/.config/alacritty/gruvDark.yml
 
 window:
+  dimensions:
+    columns: 80
+    lines: 30
+
   padding:
     x: 15
     y: 10
