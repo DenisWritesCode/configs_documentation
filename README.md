@@ -9,6 +9,14 @@
 `/usr/share/fonts`.
 - Make the necessary changes to your `alacritty.yml`.
 
+## Fish
+- Install fish depending on your distro.
+- To permanently make it your drop in login shell run `chsh -s /usr/bin/fish`.
+- Add customisations to *~/.config/fish/fish.config*.
+- For PopOs and VSCode run `set -xU fish_user_paths /usr/share/code/bin $fish_user_paths`.
+- To customise run `fish_config`.
+- To add aliases `alias v="nvim"`.
+
 ## Termux
 ### Basics
 > The beauty of Tmux is that you can start a session, then drop off and come back and reattach to the same session. This happens automagically without losing your data.
