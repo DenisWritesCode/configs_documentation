@@ -17,6 +17,10 @@
 - To customise run `fish_config`.
 - To add aliases `alias v="nvim"`.
 
+### Customising Fish Shell.
+- Run `fish_config` and choose a cool prompt and anything else to your heart's desire.
+- Install `omf` framework to customise it.
+
 ## Termux
 ### Basics
 > The beauty of Tmux is that you can start a session, then drop off and come back and reattach to the same session. This happens automagically without losing your data.
