@@ -16,6 +16,12 @@
 - For PopOs and VSCode run `set -xU fish_user_paths /usr/share/code/bin $fish_user_paths`.
 - To customise run `fish_config`.
 - To add aliases `alias v="nvim"`.
+- Add *the fuck* extension. Download extension from github. Add it via `omf install fuck`. Finalise by adding the function with `funcsave fuck` 
+    ```
+    function fuck
+        eval (thefuck (history | head -n1))
+    end
+    ```
 
 ### Customising Fish Shell.
 - Run `fish_config` and choose a cool prompt and anything else to your heart's desire.
