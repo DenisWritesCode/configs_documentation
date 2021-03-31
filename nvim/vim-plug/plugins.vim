@@ -17,11 +17,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     "Limelight + Goyo
     Plug 'junegunn/limelight.vim'
+    Plug 'junegunn/goyo.vim'
 
     " Gruvbox colorscheme
     Plug 'morhetz/gruvbox'
+    Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 
 let g:gruvbox_italic=1
 colorscheme gruvbox
+"colorscheme nord
