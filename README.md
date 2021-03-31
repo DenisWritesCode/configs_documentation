@@ -25,25 +25,14 @@
 - desire.  Install `omf` framework to customise it.
 
 ## Termux ### Basics
-> The beauty of Tmux is that you can start a session, then drop off and come
-> back and reattach to the same session. This happens automagically without
-> losing your data.
-- First install **Tmux** `sudo apt-get install tmux`.  For you to stat using
-- Tmux, a server must be running. This server is run by typing: `tmux` at any
-- terminal.  To see a current list of all active tmux sessions run `tmux ls`.
-- To attach to an already running session, run `tmux attach -t *xxx*`. Where
-- *xxx* is the corresponding number attached to the output of the *ls* command
-- above.  It is possible to rename an already running session by `tmux
-- rename-session -t Axxx Bxxx`, where *Axxx* is the old name/number and *Bxxx*
-- is the new name.  You can also start a named session by running `tmux new -s
-- xxx`. *xxx* is the name of the session.  Acquaint yourself with a few of the
-- commands. Hit `Ctrl+b` then `?` to pull
-up the help menu.
-- From now on, `Ctrl+*xxx*` will be written as `<C-xxx>`. It is the official
-lingo and type ligature, you might as well get used to it.
+> The beauty of Tmux is that you can start a session, then drop off and come back and reattach to the same session. This happens automagically without losing your data.
+- First install **Tmux** `sudo apt-get install tmux`.  For you to stat using Tmux, a server must be running. This server is run by typing: `tmux` at any terminal.  To see a current list of all active tmux sessions run `tmux ls`.
+- To attach to an already running session, run `tmux attach -t *xxx*`. Where *xxx* is the corresponding number attached to the output of the *ls* command above.  
+- It is possible to rename an already running session by `tmux rename-session -t Axxx Bxxx`, where *Axxx* is the old name/number and *Bxxx* is the new name.  You can also start a named session by running `tmux new -s xxx`. *xxx* is the name of the session.  Acquaint yourself with a few of the commands. 
+- Hit `Ctrl+b` then `?` to pull up the help menu.
+- From now on, `Ctrl+*xxx*` will be written as `<C-xxx>`. It is the official lingo and type ligature, you might as well get used to it.
 - To that effect, the instruction for help is `<C-b>` then `?`.
-> *Note, we say then because you first hit `Ctrl` and `b` simultaneoulsy,
-release both, then hit `?` separately. Kindly take note*.
+> *Note, we say then because you first hit `Ctrl` and `b` simultaneoulsy, release both, then hit `?` separately. Kindly take note*.
 - Here are few default key-bindings, yours truly thinks every beginner should
 familiarise themselves with:
   1. > `<C-b>, %` - Vertical split.
@@ -82,3 +71,7 @@ familiarise themselves with:
 - a given mode, prepend it to the map command e.g. `vmap` for *visual mode* or
 - `imap` for *insert mode*.  `vmap h l` - When h is pressed, pass the command
 - for l.  Install *vim-plug* and then a few plugins as well.
+- To navigate per word, use `w` to move forward a whole word. `b` Moves back a
+whole word whereas `e` moves to the end of current word.
+- To move sentence-wise (denoted by .) use `(` for next and `)` for backwards.
+- `gj` - Moves one *visible* line up whereas `gk` moves down one *visible* line.
