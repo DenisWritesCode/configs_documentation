@@ -19,12 +19,26 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/limelight.vim'
     Plug 'junegunn/goyo.vim'
 
-    " Gruvbox colorscheme
+    " Stable version of coc
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Autocomplete
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " Typescript
+    Plug 'leafgarland/typescript-vim'
+    Plug 'mhartington/nvim-typescript', { 'do': './install.sh' }
+    Plug 'pangloss/vim-javascript'
+
+    " Colorscheme
     Plug 'morhetz/gruvbox'
     Plug 'arcticicestudio/nord-vim'
+    Plug 'joshdick/onedark.vim'
+    Plug 'sonph/onehalf', { 'rtp': 'vim' } " one half
 
 call plug#end()
 
-let g:gruvbox_italic=1
-colorscheme gruvbox
-"colorscheme nord
+" Automatically install missing plugins on startup
+autocmd VimEnter *
+  \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \|   PlugInstall --sync | q
+  \| endif
