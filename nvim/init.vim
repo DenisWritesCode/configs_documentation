@@ -8,3 +8,4 @@ source $HOME/.config/nvim/themes/gruvbox.vim   " Current theme
 source $HOME/.config/nvim/themes/airline.vim   " Theme to use for airline
 source $HOME/.config/nvim/plug-config/goyolimelight.vim "Config for goyo & limelight
 source $HOME/.config/nvim/plug-config/coc.vim  " Conqueror Of Completion
+source $HOME/.config/nvim/plug-config/rnvimr.vim " Ranger in NeoVim
