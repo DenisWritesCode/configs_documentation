@@ -50,17 +50,29 @@ nmap <Leader>l <Plug>(Limelight)
 xmap <Leader>l <Plug>(Limelight)
 
 " Goyo integration
-map <leader>gy :Goyo<CR>
+map <leader>goyo :Goyo<CR>
 map <leader>ll :Limelight!!<CR>
 
 " NERDTree
-map <leader>e :NERDTreeToggle<CR>
+nmap <C-f> :NERDTreeToggle<CR>
+imap <C-f> :NERDTreeToggle<CR>
 
 " Toggle highlight search
-nnoremap <c-h> :set hlsearch!<cr>
+" nnoremap <c-h> :set hlsearch!<cr>
 
 " Accustom miself to vim. By disabling arrow keys.
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
+
+
+" Coc Navigation
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gr <Plug>(coc-references)
+
+" Do whatever is suggested by Coc
+nmap <leader>do <Plug>(coc-codeaction)
+" Rename Symbol
+nmap <leader>rn <Plug>(coc-rename)
