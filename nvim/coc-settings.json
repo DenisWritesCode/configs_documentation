@@ -1,5 +1,5 @@
 {
-  "suggest.echodocSupport": true,
+ "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
   "coc.preferences.formatOnSaveFiletypes": ["css", "html", "javascript", "javascriptreact",  "json", "markdown", "python", "typescript", "typescriptreact", "typescript.tsx", "yaml"],
   "tsserver.formatOnType": true,

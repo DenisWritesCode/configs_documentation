@@ -9,3 +9,10 @@ source $HOME/.config/nvim/themes/airline.vim   " Theme to use for airline
 source $HOME/.config/nvim/plug-config/goyolimelight.vim "Config for goyo & limelight
 source $HOME/.config/nvim/plug-config/coc.vim  " Conqueror Of Completion
 source $HOME/.config/nvim/plug-config/rnvimr.vim " Ranger in NeoVim
+source $HOME/.config/nvim/plug-config/fzf.vim    " FZF
+source $HOME/.config/nvim/plug-config/rainbow-paren.vim " Settings for rainbow-parentheses
+source $HOME/.config/nvim/plug-config/start-screen.vim  " Startify settings
+source $HOME/.config/nvim/plug-config/signify.vim  " Signify Git
+
+" luafile $HOME/.config/nvim/lua/plug-colorizer.lua " Color highlight
+lua require 'plug-colorizer'
