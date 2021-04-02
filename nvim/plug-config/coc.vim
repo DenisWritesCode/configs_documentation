@@ -2,6 +2,8 @@
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8
 
+set termguicolors
+
 " TextEdit might fail if hidden is not set.
 set hidden
 

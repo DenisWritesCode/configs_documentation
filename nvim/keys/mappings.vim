@@ -76,3 +76,10 @@ nmap <silent> gr <Plug>(coc-references)
 nmap <leader>do <Plug>(coc-codeaction)
 " Rename Symbol
 nmap <leader>rn <Plug>(coc-rename)
+
+" NERDCommenter
+nnoremap <space>/ :Commentary<CR>
+vnoremap <space>/ :Commentary<CR>
+
+" Format doc
+map <F7> gg=G<C-o><C-o>
